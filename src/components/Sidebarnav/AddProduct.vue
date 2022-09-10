@@ -1,5 +1,5 @@
 <template>
-  <accordion title="Add product">
+  <accordion title="Add product" :icon="['fa', 'fa-square-plus']">
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>Add product 1</h3>
@@ -18,13 +18,12 @@
 </template>
 
 <script>
-import Accordion from '@/components/Shared/Accordion.vue';
+import Accordion from "@/components/Shared/Accordion.vue";
 
-export default{
-    name: "AddProductNav",
-    components:{
-        Accordion,
-    }
-
-  }
+export default {
+  name: "AddProductNav",
+  components: {
+    Accordion,
+  },
+};
 </script>

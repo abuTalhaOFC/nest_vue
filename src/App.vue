@@ -1,20 +1,19 @@
 <template>
-  <side-bar-nav />
-  <dashboard />
+  <div>
+    <side-bar-nav />
+    <top-nav-bar />
+  </div>
 </template>
 
 <script>
-
-import Dashboard from "@/components/Dashboard.vue";
-import SideBarNav from '@/components/SideBarNav.vue';
+import SideBarNav from "@/components/SideBarNav.vue";
+import TopNavBar from "@/components/TopNavBar.vue";
 
 export default {
   name: "App",
   components: {
-    Dashboard,
     SideBarNav,
+    TopNavBar,
   },
 };
 </script>
-
-

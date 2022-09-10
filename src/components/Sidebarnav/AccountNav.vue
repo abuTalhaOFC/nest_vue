@@ -1,5 +1,5 @@
 <template>
-  <accordion title="Account">
+  <accordion title="Account" :icon="['fa', 'fa-user']">
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>User login</h3>
@@ -15,13 +15,12 @@
 </template>
 
 <script>
-import Accordion from '@/components/Shared/Accordion.vue';
+import Accordion from "@/components/Shared/Accordion.vue";
 
-export default{
-    name: "AccountNav",
-    components:{
-        Accordion,
-    }
-
-  }
+export default {
+  name: "AccountNav",
+  components: {
+    Accordion,
+  },
+};
 </script>

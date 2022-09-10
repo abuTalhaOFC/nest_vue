@@ -1,5 +1,8 @@
 <template>
-  <non-accordion-nav-opt title="Starter page" :icon="['fa', 'fa-tag']" />
+  <non-accordion-nav-opt
+    title="Starter page"
+    :icon="['fa', 'fa-tag']"
+  />
 </template>
 
 <script>

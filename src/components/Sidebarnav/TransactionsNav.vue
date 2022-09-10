@@ -1,5 +1,8 @@
 <template>
-  <accordion title="Transactions" :icon="['fa', 'fa-sack-dollar']">
+  <accordion
+    title="Transactions"
+    :icon="['fa', 'fa-sack-dollar']"
+  >
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>Transaction 1</h3>

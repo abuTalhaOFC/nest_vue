@@ -5,6 +5,7 @@
         'fixed',
         'top-0',
         'bottom-0',
+        'left-0',
         'overflow-auto',
         'block',
         'bg-white',
@@ -37,23 +38,47 @@
 
         <div class="flex flex-col">
           <div class="flex flex-col border-b text-gray-600 border-gray-200 p-4">
-            <dashbord-nav />
-            <products-nav />
-            <orders-nav />
-            <seller-nav />
-            <add-product-nav />
-            <transactions-nav />
-            <account-nav />
-            <reviews-nav />
-            <brands-nav />
-            <statistics-nav />
+            <router-link to="/">
+              <dashbord-nav />
+            </router-link>
+            <router-link to="/">
+              <products-nav />
+            </router-link>
+            <router-link to="/">
+              <orders-nav />
+            </router-link>
+            <router-link to="/">
+              <seller-nav />
+            </router-link>
+            <router-link to="/">
+              <add-product-nav />
+            </router-link>
+            <router-link to="/">
+              <transactions-nav />
+            </router-link>
+            <router-link to="/">
+              <account-nav />
+            </router-link>
+            <router-link to="/">
+              <reviews-nav />
+            </router-link>
+            <router-link to="/">
+              <brands-nav />
+            </router-link>
+            <router-link to="/">
+              <statistics-nav />
+            </router-link>
           </div>
 
           <!-- Menu item end -->
           <!-- setting button start  -->
           <div class="flex flex-col text-gray-600 p-4">
-            <settings-nav />
-            <starter-page-nav />
+            <router-link to="/">
+              <settings-nav />
+            </router-link>
+            <router-link to="/">
+              <starter-page-nav />
+            </router-link>
           </div>
           <!-- setting button end  -->
         </div>

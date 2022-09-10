@@ -1,5 +1,8 @@
 <template>
-  <non-accordion-nav-opt title="Reviews" :icon="['fa', 'fa-message']" />
+  <non-accordion-nav-opt
+    title="Reviews"
+    :icon="['fa', 'fa-message']"
+  />
 </template>
 
 <script>

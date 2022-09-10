@@ -6,7 +6,10 @@
     >
       <!-- left icon start -->
       <div class="pr-3 flex justify-center items-center">
-        <font-awesome-icon :icon="icon" class="text-gray-400 text-2xl" />
+        <font-awesome-icon
+          :icon="icon"
+          class="text-gray-400 text-2xl"
+        />
       </div>
       <!-- left icon end -->
 
@@ -35,7 +38,10 @@
 
     <!-- slot -->
     <div v-if="isMenuSidebarExpend">
-      <div v-if="isOpen" class="ml-12 my-2">
+      <div
+        v-if="isOpen"
+        class="ml-12 my-2"
+      >
         <slot>I Need Data</slot>
       </div>
     </div>

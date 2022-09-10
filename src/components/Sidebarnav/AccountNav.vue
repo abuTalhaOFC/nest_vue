@@ -1,5 +1,8 @@
 <template>
-  <accordion title="Account" :icon="['fa', 'fa-user']">
+  <accordion
+    title="Account"
+    :icon="['fa', 'fa-user']"
+  >
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>User login</h3>

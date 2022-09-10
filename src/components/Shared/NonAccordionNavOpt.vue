@@ -6,13 +6,19 @@
     >
       <!-- left icon start -->
       <div class="pr-3">
-        <font-awesome-icon :icon="icon" class="text-gray-400 text-2xl" />
+        <font-awesome-icon
+          :icon="icon"
+          class="text-gray-400 text-2xl"
+        />
       </div>
       <!-- left icon end -->
 
       <!-- title  start -->
 
-      <div v-if="isMenuSidebarExpend" class="flex flex-row w-full">
+      <div
+        v-if="isMenuSidebarExpend"
+        class="flex flex-row w-full"
+      >
         <div>
           <h2 class="text-gray-800 text-sm font-semibold">
             {{ title }}

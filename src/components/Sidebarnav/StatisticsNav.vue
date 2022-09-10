@@ -1,5 +1,8 @@
 <template>
-  <non-accordion-nav-opt title="Statistics" :icon="['fa', 'fa-chart-pie']" />
+  <non-accordion-nav-opt
+    title="Statistics"
+    :icon="['fa', 'fa-chart-pie']"
+  />
 </template>
 
 <script>

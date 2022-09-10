@@ -1,5 +1,8 @@
 <template>
-  <accordion title="Orders" :icon="['fa', 'fa-cart-shopping']">
+  <accordion
+    title="Orders"
+    :icon="['fa', 'fa-cart-shopping']"
+  >
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>Orders list 1</h3>

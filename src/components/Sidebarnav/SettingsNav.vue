@@ -1,5 +1,8 @@
 <template>
-  <accordion title="Settings" :icon="['fa', 'fa-gear']">
+  <accordion
+    title="Settings"
+    :icon="['fa', 'fa-gear']"
+  >
     <ul class="leading-7 list-disc cursor-pointer">
       <li>
         <h3>Setting sample 1</h3>

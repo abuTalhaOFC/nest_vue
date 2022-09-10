@@ -1,7 +1,13 @@
 <template>
   <div>
-    <side-bar-nav />
-    <top-nav-bar />
+    <div class="z-10">
+      <side-bar-nav />
+      <top-nav-bar />
+    </div>
+
+    <div :class="['mt-20', leftMArginClass]">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -14,6 +20,17 @@ export default {
   components: {
     SideBarNav,
     TopNavBar,
+  },
+  computed: {
+    leftMArginClass() {
+      return {
+        "ml-72": this.isMenuSidebarExpend,
+        "ml-20": !this.isMenuSidebarExpend,
+      };
+    },
+    isMenuSidebarExpend() {
+      return this.$store.state.isMenuSidebarExpend;
+    },
   },
 };
 </script>

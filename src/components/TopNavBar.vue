@@ -1,7 +1,7 @@
 <template>
-  <header :class="['fixed', 'right-0', headerHeightClass]">
+  <header :class="['fixed', 'h-20', 'top-0', 'right-0', headerHeightClass]">
     <div
-      class="h-20 flex flex-row justify-between w-full items-center border-b border-gray-200 px-9 py-4"
+      class="h-20 flex flex-row justify-between w-full items-center border-b bg-white border-gray-200 px-9 py-4"
     >
       <!-- serach section start -->
       <div>

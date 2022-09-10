@@ -1,5 +1,8 @@
 <template>
-  <non-accordion-nav-opt title="Brands" :icon="['fa', 'fa-star']" />
+  <non-accordion-nav-opt
+    title="Brands"
+    :icon="['fa', 'fa-star']"
+  />
 </template>
 
 <script>

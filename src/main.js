@@ -29,6 +29,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import store from "@/store";
+import router from './router'
 
 /* add icons to the library */
 library.add(
@@ -50,7 +51,7 @@ library.add(
   faMagnifyingGlass
 );
 
-createApp(App)
+createApp(App).use(router)
   .use(store)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

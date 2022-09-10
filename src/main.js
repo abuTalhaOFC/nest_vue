@@ -25,6 +25,7 @@ import {
   faChartPie,
   faGear,
   faTag,
+  faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
 
 import store from "@/store";
@@ -45,7 +46,8 @@ library.add(
   faStar,
   faChartPie,
   faGear,
-  faTag
+  faTag,
+  faMagnifyingGlass
 );
 
 createApp(App)
